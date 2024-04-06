@@ -20,7 +20,7 @@ pipeline {
             }
             steps {
                 gitCheckout(
-                    branch: "*/main", // Update branch name if needed
+                    branch: "main", // Update branch name if needed
                     url: "https://github.com/rameshpasupulety/spring-cloud-kubernetes.git"
                 )
             }
